@@ -1,0 +1,29 @@
+
+.header{
+    background-color: #1F295C;
+    padding-block: 24px;
+    border-radius: 4px;
+}
+.img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0px 0px 4px  rgba(0, 0, 0, 0.295);
+}
+
+.titulo{
+    font: italic bold 32px sans-serif;
+    /* font-size: 32px;
+    font-weight: bold;
+    font-family: sans-serif; */
+    text-align: center;
+    color: antiquewhite;
+}
+
+.subtitulo{
+    font: italic normal 24px sans-serif;
+    text-align: center;
+    color: antiquewhite;
+}

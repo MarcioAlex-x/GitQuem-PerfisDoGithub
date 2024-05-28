@@ -1,0 +1,48 @@
+.section{
+    max-width: 80%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.repositorios{
+    text-align: center;
+    margin-block: 32px;
+}
+.lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.itemLista{
+    list-style: none;
+    padding-block: 16px;
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 8px;
+    
+    position: relative;
+    padding-bottom: 40px;
+}
+.link{
+    text-decoration: none;
+    color: #555;
+    text-align: center;
+    display: block;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 450px){
+    
+    .lista{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 450px ) and (max-width: 800px){
+    
+    .lista{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
